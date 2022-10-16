@@ -1,0 +1,148 @@
+,Model,First flight,Seats,Fuel burn,Fuel per seat,Sector,Fuel Efficiency (L/100km),Class
+0,Antonov An-148 (241 nmi),2004,89,,,560,5.95,Commuter
+1,Antonov An-158 (241 nmi),2010,99,,,560,5.47,Commuter
+2,ATR 42-500,1995,48,,,560,3.15,Commuter
+3,ATR 72-500,1997,70,,,560,2.53,Commuter
+4,Beechcraft 1900D (226 nm),1982,19,,,560,6.57,Commuter
+5,Bombardier CRJ100,1991,50,,,560,5.5,Commuter
+6,Bombardier CRJ200,1995,50,,,560,5.43,Commuter
+7,Bombardier CRJ700,1999,70,,,560,5.25,Commuter
+8,Bombardier CRJ900,2001,88,,,560,4.91,Commuter
+9,Bombardier Dash 8 Q400,1998,78,,,560,3.46,Commuter
+10,Dornier 228,1981,19,,,560,6.22,Commuter
+11,Dornier 328,1991,32,,,560,4.76,Commuter
+12,Embraer Brasilia,1983,30,,,560,3.82,Commuter
+13,Embraer ERJ-135ER (309 nmi),1998,37,,,560,5.52,Commuter
+14,Embraer ERJ-145ER (305 nmi),1995,50,,,560,4.37,Commuter
+15,Saab 340,1983,32,,,560,4.29,Commuter
+16,Saab 2000,1992,50,,,560,4.39,Commuter
+17,Xian MA700,2019,78,,,560,2.71,Commuter
+0,Airbus A319neo,2015,144,,,100,2.92,Regional
+1,Airbus A319neo,2015,124,,,220,2.82,Regional
+2,Airbus A320neo,2015,154,,,220,2.25,Regional
+3,Airbus A321neo,2015,192,,,220,2.19,Regional
+4,Antonov An-148,2004,89,,,267,4.06,Regional
+5,Antonov An-158,2010,99,,,267,3.79,Regional
+6,Boeing 737-300,1984,126,,,939,3.46,Regional
+7,Boeing 737-600,1998,110,,,930,3.59,Regional
+8,Boeing 737-700,1997,126,,,930,3.19,Regional
+9,Boeing 737 MAX 7,2017,128,,,220,2.77,Regional
+10,Boeing 737 MAX 7,2017,144,,,100,2.93,Regional
+11,Boeing 737-800,1997,162,,,930,2.77,Regional
+12,Boeing 737 MAX 8,2017,166,,,220,2.28,Regional
+13,Boeing 737-900ER,2006,180,,,930,2.66,Regional
+14,Boeing 737 MAX 9,2017,180,,,220,2.28,Regional
+15,Boeing 757-200,1982,200,,,930,2.91,Regional
+16,Boeing 757-300,1998,243,,,930,2.66,Regional
+17,Bombardier CRJ100,1991,50,,,69,4.68,Regional
+18,Bombardier CRJ200,1995,50,,,70,4.49,Regional
+19,Bombardier CRJ700,1999,70,,,63,4.36,Regional
+20,Bombardier CRJ900,2001,88,,,61,3.94,Regional
+21,Bombardier CRJ1000,2009,100,,,930,3.33,Regional
+22,Airbus A220 100,2013,115,,,100,3.07,Regional
+23,Airbus A220 300,2015,140,,,100,2.75,Regional
+24,Airbus A220-100,2013,125,,,930,2.57,Regional
+25,Airbus A220-300,2015,160,,,930,2.23,Regional
+26,Bombardier Dash 8 Q400,1998,82,,,100,2.79,Regional
+27,Dornier 328,1991,31,,,100,4.35,Regional
+28,Embraer E-Jet E2-175,2020,88,,,100,3.44,Regional
+29,Embraer E-Jet E2-190,2018,106,,,100,3.32,Regional
+30,Embraer E-Jet E2-195,2019,132,,,100,2.9,Regional
+31,Embraer E-Jet-170,2002,80,,,122,4.08,Regional
+32,Embraer E-Jet-175,2005,88,,,120,3.97,Regional
+33,Embraer E-Jet-190,2004,114,,,124,3.54,Regional
+34,Embraer E-Jet-195,2004,122,,,124,3.28,Regional
+35,Embraer ERJ-135ER,1998,37,,,104,4.86,Regional
+36,Embraer ERJ-145ER,1996,50,,,107,3.86,Regional
+37,Pilatus PC-12,1991,9,,,930,5.66,Regional
+38,Saab 340,1983,31,,,930,3.83,Regional
+39,Saab 2000,1992,50,,,930,3.85,Regional
+40,Sukhoi SSJ100,2008,98,,,930,3.59,Regional
+41,Xian MA700,2019,78,,,200,2.5,Regional
+0,Airbus A319,1995,124,,,900,2.95,Short-Haul
+1,Airbus A319neo,2015,136,,,900,1.93,Short-Haul
+2,Airbus A320,1987,150,,,900,2.61,Short-Haul
+3,Airbus A321-200,1996,180,,,900,2.5,Short-Haul
+4,Airbus A330-200,1997,293,,,900,2.37,Short-Haul
+5,Antonov An-148 (1190 nmi),2004,89,,,900,3.86,Short-Haul
+6,Antonov An-158 (1190 nmi),2010,99,,,900,3.57,Short-Haul
+7,Boeing 737-600,1998,110,,,900,3.15,Short-Haul
+8,Boeing 737-700,1997,126,,,900,2.79,Short-Haul
+9,Boeing 737-700,1997,128,,,900,2.71,Short-Haul
+10,Boeing 737 MAX-7,2017,140,,,900,1.94,Short-Haul
+11,Boeing 737-800,1997,162,,,900,2.44,Short-Haul
+12,Boeing 737-800,1997,160,,,900,2.68,Short-Haul
+13,Boeing 737-800W,1997,162,,,900,2.45,Short-Haul
+14,Boeing 737 MAX-8,2017,162,,,900,2.04,Short-Haul
+15,Boeing 737-900ER,2006,180,,,900,2.38,Short-Haul
+16,Boeing 737-900ERW,2006,180,,,900,2.37,Short-Haul
+17,Boeing 737 MAX-9,2017,180,,,900,2.02,Short-Haul
+18,Boeing 757-200,1982,190,,,900,3.02,Short-Haul
+19,Boeing 757-200,1982,200,,,900,2.59,Short-Haul
+20,Boeing 757-300,1998,243,,,900,2.4,Short-Haul
+21,Airbus A220-100,2013,125,,,900,2.28,Short-Haul
+22,Airbus A220-300,2015,160,,,900,2.0,Short-Haul
+23,Airbus A220-300,2015,135,,,900,1.85,Short-Haul
+24,Quest Kodiak,2004,9,,,900,6.28,Short-Haul
+0,Airbus A320,1987,150,,,984,2.43,Medium-Haul
+1,Airbus A321LR,2016,154,,,300,2.43,Medium-Haul
+2,Airbus A330-200,1997,241,,,600,3.11,Medium-Haul
+3,Airbus A330-300,1992,262,,,600,2.98,Medium-Haul
+4,Airbus A330-900,2016,310,,,200,2.42,Medium-Haul
+5,Airbus A340-300,1992,262,,,600,3.25,Medium-Haul
+6,Boeing 737 MAX-8,2017,168,,,300,2.13,Medium-Haul
+7,Boeing 737 MAX-9,2017,144,,,300,2.53,Medium-Haul
+8,Boeing 747-400,1988,416,,,984,3.24,Medium-Haul
+9,Boeing 747-8,2011,467,,,600,2.65,Medium-Haul
+10,Boeing 757-200W,1981,158,,,300,3.0,Medium-Haul
+11,Boeing 767-200ER,1984,181,,,600,3.34,Medium-Haul
+12,Boeing 767-200ER,1984,193,,,300,3.25,Medium-Haul
+13,Boeing 767-200ER,1984,224,,,600,2.75,Medium-Haul
+14,Boeing 767-300ER,1988,218,,,984,3.09,Medium-Haul
+15,Boeing 767-300ER,1988,218,,,600,3.09,Medium-Haul
+16,Boeing 767-300ER,1988,269,,,600,2.56,Medium-Haul
+17,Boeing 767-400ER,1999,245,,,600,2.95,Medium-Haul
+18,Boeing 767-400ER,1999,304,,,600,2.44,Medium-Haul
+19,Boeing 767-400ER,1999,304,,,47,2.43,Medium-Haul
+20,Boeing 777-200,1994,305,,,600,2.8,Medium-Haul
+21,Boeing 777-200ER,1996,301,,,600,2.89,Medium-Haul
+22,Boeing 777-300,1997,368,,,600,2.68,Medium-Haul
+23,Boeing 787-8,2009,291,,,300,2.26,Medium-Haul
+24,Boeing 787-8,2009,238,,,300,2.68,Medium-Haul
+25,Boeing 787-9,2013,304,,,200,2.37,Medium-Haul
+26,Irkut MC-21-300,2017,163,,,240,2.33,Medium-Haul
+0,Airbus A330-200,1997,241,,,0,3.32,Long-Haul
+1,Airbus A330-200,1997,248,,,277,3.3,Long-Haul
+2,Airbus A330-300,1992,274,,,275,3.11,Long-Haul
+3,Airbus A330-800,2017,248,,,610,2.75,Long-Haul
+4,Airbus A330-900,2017,300,,,610,2.48,Long-Haul
+5,Airbus A340-300,1992,262,,,0,3.49,Long-Haul
+6,Airbus A350-900,2013,315,,,208,2.39,Long-Haul
+7,Airbus A350-900,2013,318,,,249,2.56,Long-Haul
+8,Airbus A350-900,2013,315,,,116,2.81,Long-Haul
+9,Airbus A350-1000,2016,327,,,243,2.85,Long-Haul
+10,Airbus A350-1000,2016,367,,,243,2.58,Long-Haul
+11,Airbus A380,2005,525,,,300,3.27,Long-Haul
+12,Airbus A380,2005,544,,,0,3.16,Long-Haul
+13,Boeing 747-400,1988,416,,,0,3.34,Long-Haul
+14,Boeing 747-400,1988,393,,,192,3.76,Long-Haul
+15,Boeing 747-400,1988,487,,,147,3.16,Long-Haul
+16,Boeing 747-8,2011,467,,,0,2.82,Long-Haul
+17,Boeing 747-8,2011,405,,,300,3.35,Long-Haul
+18,Boeing 777-200ER,1996,304,,,251,3.11,Long-Haul
+19,Boeing 777-200ER,1996,301,,,0,3.08,Long-Haul
+20,Boeing 777-200ER,1996,301,,,0,3.09,Long-Haul
+21,Boeing 777-200LR,2005,291,,,208,3.25,Long-Haul
+22,Boeing 777-300ER,2003,382,,,199,2.9,Long-Haul
+23,Boeing 777-300ER,2003,365,,,0,2.91,Long-Haul
+24,Boeing 777-300ER,2003,344,,,300,3.11,Long-Haul
+25,Boeing 777-9X,2020,395,,,300,2.42,Long-Haul
+26,Boeing 787-8,2011,243,,,610,2.77,Long-Haul
+27,Boeing 787-8 GEnx,2011,220,,,255,3.01,Long-Haul
+28,Boeing 787-8 Trent,2011,220,,,255,3.13,Long-Haul
+29,Boeing 787-9 GEnx,2013,294,,,610,2.49,Long-Haul
+30,Boeing 787-9,2013,304,,,208,2.31,Long-Haul
+31,Boeing 787-9 GEnx,2013,266,,,249,2.64,Long-Haul
+32,Boeing 787-9,2013,291,,,116,3.08,Long-Haul
+33,Boeing 787-10 GEnx,2017,337,,,240,2.27,Long-Haul
+34,Boeing 787-10 Trent,2017,337,,,240,2.31,Long-Haul
