@@ -1,148 +1,148 @@
 Model,First flight,Seats,Sector,Fuel Efficiency (L/100km),Class
-Antonov An-148 (241 nmi),2004,89,560,5.95,Commuter
-Antonov An-158 (241 nmi),2010,99,560,5.47,Commuter
-ATR 42-500,1995,48,560,3.15,Commuter
-ATR 72-500,1997,70,560,2.53,Commuter
-Beechcraft 1900D (226 nm),1982,19,560,6.57,Commuter
-Bombardier CRJ100,1991,50,560,5.5,Commuter
-Bombardier CRJ200,1995,50,560,5.43,Commuter
-Bombardier CRJ700,1999,70,560,5.25,Commuter
-Bombardier CRJ900,2001,88,560,4.91,Commuter
-Bombardier Dash 8 Q400,1998,78,560,3.46,Commuter
-Dornier 228,1981,19,560,6.22,Commuter
-Dornier 328,1991,32,560,4.76,Commuter
-Embraer Brasilia,1983,30,560,3.82,Commuter
-Embraer ERJ-135ER (309 nmi),1998,37,560,5.52,Commuter
-Embraer ERJ-145ER (305 nmi),1995,50,560,4.37,Commuter
-Saab 340,1983,32,560,4.29,Commuter
-Saab 2000,1992,50,560,4.39,Commuter
-Xian MA700,2019,78,560,2.71,Commuter
-Airbus A319neo,2015,144,1100,2.92,Regional
-Airbus A319neo,2015,124,1220,2.82,Regional
-Airbus A320neo,2015,154,1220,2.25,Regional
-Airbus A321neo,2015,192,1220,2.19,Regional
-Antonov An-148,2004,89,1267,4.06,Regional
-Antonov An-158,2010,99,1267,3.79,Regional
-Boeing 737-300,1984,126,939,3.46,Regional
-Boeing 737-600,1998,110,930,3.59,Regional
-Boeing 737-700,1997,126,930,3.19,Regional
-Boeing 737 MAX 7,2017,128,1220,2.77,Regional
-Boeing 737 MAX 7,2017,144,1100,2.93,Regional
-Boeing 737-800,1997,162,930,2.77,Regional
-Boeing 737 MAX 8,2017,166,1220,2.28,Regional
-Boeing 737-900ER,2006,180,930,2.66,Regional
-Boeing 737 MAX 9,2017,180,1220,2.28,Regional
-Boeing 757-200,1982,200,930,2.91,Regional
-Boeing 757-300,1998,243,930,2.66,Regional
-Bombardier CRJ100,1991,50,1069,4.68,Regional
-Bombardier CRJ200,1995,50,1070,4.49,Regional
-Bombardier CRJ700,1999,70,1063,4.36,Regional
-Bombardier CRJ900,2001,88,1061,3.94,Regional
-Bombardier CRJ1000,2009,100,930,3.33,Regional
-Airbus A220 100,2013,115,1100,3.07,Regional
-Airbus A220 300,2015,140,1100,2.75,Regional
-Airbus A220-100,2013,125,930,2.57,Regional
-Airbus A220-300,2015,160,930,2.23,Regional
-Bombardier Dash 8 Q400,1998,82,1100,2.79,Regional
-Dornier 328,1991,31,1100,4.35,Regional
-Embraer E-Jet E2-175,2020,88,1100,3.44,Regional
-Embraer E-Jet E2-190,2018,106,1100,3.32,Regional
-Embraer E-Jet E2-195,2019,132,1100,2.9,Regional
-Embraer E-Jet-170,2002,80,1122,4.08,Regional
-Embraer E-Jet-175,2005,88,1120,3.97,Regional
-Embraer E-Jet-190,2004,114,1124,3.54,Regional
-Embraer E-Jet-195,2004,122,1124,3.28,Regional
-Embraer ERJ-135ER,1998,37,1104,4.86,Regional
-Embraer ERJ-145ER,1996,50,1107,3.86,Regional
-Pilatus PC-12,1991,9,930,5.66,Regional
-Saab 340,1983,31,930,3.83,Regional
-Saab 2000,1992,50,930,3.85,Regional
-Sukhoi SSJ100,2008,98,930,3.59,Regional
-Xian MA700,2019,78,1200,2.5,Regional
-Airbus A319,1995,124,1900,2.95,Short-Haul
-Airbus A319neo,2015,136,1900,1.93,Short-Haul
-Airbus A320,1987,150,1900,2.61,Short-Haul
-Airbus A321-200,1996,180,1900,2.5,Short-Haul
-Airbus A330-200,1997,293,1900,2.37,Short-Haul
-Antonov An-148 (1190 nmi),2004,89,1900,3.86,Short-Haul
-Antonov An-158 (1190 nmi),2010,99,1900,3.57,Short-Haul
-Boeing 737-600,1998,110,1900,3.15,Short-Haul
-Boeing 737-700,1997,126,1900,2.79,Short-Haul
-Boeing 737-700,1997,128,1900,2.71,Short-Haul
-Boeing 737 MAX-7,2017,140,1900,1.94,Short-Haul
-Boeing 737-800,1997,162,1900,2.44,Short-Haul
-Boeing 737-800,1997,160,1900,2.68,Short-Haul
-Boeing 737-800W,1997,162,1900,2.45,Short-Haul
-Boeing 737 MAX-8,2017,162,1900,2.04,Short-Haul
-Boeing 737-900ER,2006,180,1900,2.38,Short-Haul
-Boeing 737-900ERW,2006,180,1900,2.37,Short-Haul
-Boeing 737 MAX-9,2017,180,1900,2.02,Short-Haul
-Boeing 757-200,1982,190,1900,3.02,Short-Haul
-Boeing 757-200,1982,200,1900,2.59,Short-Haul
-Boeing 757-300,1998,243,1900,2.4,Short-Haul
-Airbus A220-100,2013,125,1900,2.28,Short-Haul
-Airbus A220-300,2015,160,1900,2.0,Short-Haul
-Airbus A220-300,2015,135,1900,1.85,Short-Haul
-Quest Kodiak,2004,9,1900,6.28,Short-Haul
-Airbus A320,1987,150,3984,2.43,Medium-Haul
-Airbus A321LR,2016,154,6300,2.43,Medium-Haul
-Airbus A330-200,1997,241,5600,3.11,Medium-Haul
-Airbus A330-300,1992,262,5600,2.98,Medium-Haul
-Airbus A330-900,2016,310,6200,2.42,Medium-Haul
-Airbus A340-300,1992,262,5600,3.25,Medium-Haul
-Boeing 737 MAX-8,2017,168,6300,2.13,Medium-Haul
-Boeing 737 MAX-9,2017,144,6300,2.53,Medium-Haul
-Boeing 747-400,1988,416,3984,3.24,Medium-Haul
-Boeing 747-8,2011,467,5600,2.65,Medium-Haul
-Boeing 757-200W,1981,158,6300,3.0,Medium-Haul
-Boeing 767-200ER,1984,181,5600,3.34,Medium-Haul
-Boeing 767-200ER,1984,193,6300,3.25,Medium-Haul
-Boeing 767-200ER,1984,224,5600,2.75,Medium-Haul
-Boeing 767-300ER,1988,218,3984,3.09,Medium-Haul
-Boeing 767-300ER,1988,218,5600,3.09,Medium-Haul
-Boeing 767-300ER,1988,269,5600,2.56,Medium-Haul
-Boeing 767-400ER,1999,245,5600,2.95,Medium-Haul
-Boeing 767-400ER,1999,304,5600,2.44,Medium-Haul
-Boeing 767-400ER,1999,304,6047,2.43,Medium-Haul
-Boeing 777-200,1994,305,5600,2.8,Medium-Haul
-Boeing 777-200ER,1996,301,5600,2.89,Medium-Haul
-Boeing 777-300,1997,368,5600,2.68,Medium-Haul
-Boeing 787-8,2009,291,6300,2.26,Medium-Haul
-Boeing 787-8,2009,238,6300,2.68,Medium-Haul
-Boeing 787-9,2013,304,6200,2.37,Medium-Haul
-Irkut MC-21-300,2017,163,3240,2.33,Medium-Haul
-Airbus A330-200,1997,241,11000,3.32,Long-Haul
-Airbus A330-200,1997,248,10277,3.3,Long-Haul
-Airbus A330-300,1992,274,10275,3.11,Long-Haul
-Airbus A330-800,2017,248,8610,2.75,Long-Haul
-Airbus A330-900,2017,300,8610,2.48,Long-Haul
-Airbus A340-300,1992,262,11000,3.49,Long-Haul
-Airbus A350-900,2013,315,9208,2.39,Long-Haul
-Airbus A350-900,2013,318,10249,2.56,Long-Haul
-Airbus A350-900,2013,315,12116,2.81,Long-Haul
-Airbus A350-1000,2016,327,10243,2.85,Long-Haul
-Airbus A350-1000,2016,367,10243,2.58,Long-Haul
-Airbus A380,2005,525,13300,3.27,Long-Haul
-Airbus A380,2005,544,11000,3.16,Long-Haul
-Boeing 747-400,1988,416,11000,3.34,Long-Haul
-Boeing 747-400,1988,393,10192,3.76,Long-Haul
-Boeing 747-400,1988,487,10147,3.16,Long-Haul
-Boeing 747-8,2011,467,11000,2.82,Long-Haul
-Boeing 747-8,2011,405,13300,3.35,Long-Haul
-Boeing 777-200ER,1996,304,10251,3.11,Long-Haul
-Boeing 777-200ER,1996,301,11000,3.08,Long-Haul
-Boeing 777-200ER,1996,301,11000,3.09,Long-Haul
-Boeing 777-200LR,2005,291,9208,3.25,Long-Haul
-Boeing 777-300ER,2003,382,10199,2.9,Long-Haul
-Boeing 777-300ER,2003,365,11000,2.91,Long-Haul
-Boeing 777-300ER,2003,344,13300,3.11,Long-Haul
-Boeing 777-9X,2020,395,13300,2.42,Long-Haul
-Boeing 787-8,2011,243,8610,2.77,Long-Haul
-Boeing 787-8 GEnx,2011,220,10255,3.01,Long-Haul
-Boeing 787-8 Trent,2011,220,10255,3.13,Long-Haul
-Boeing 787-9 GEnx,2013,294,8610,2.49,Long-Haul
-Boeing 787-9,2013,304,9208,2.31,Long-Haul
-Boeing 787-9 GEnx,2013,266,10249,2.64,Long-Haul
-Boeing 787-9,2013,291,12116,3.08,Long-Haul
-Boeing 787-10 GEnx,2017,337,10240,2.27,Long-Haul
-Boeing 787-10 Trent,2017,337,10240,2.31,Long-Haul
+Antonov An-148 ,2004,89,446,5.95,Commuter (446 - 572km)
+Antonov An-158 ,2010,99,446,5.47,Commuter (446 - 572km)
+ATR 42-500,1995,48,560,3.15,Commuter (446 - 572km)
+ATR 72-500,1997,70,560,2.53,Commuter (446 - 572km)
+Beechcraft 1900D ,1982,19,560,6.57,Commuter (446 - 572km)
+Bombardier CRJ100,1991,50,560,5.5,Commuter (446 - 572km)
+Bombardier CRJ200,1995,50,560,5.43,Commuter (446 - 572km)
+Bombardier CRJ700,1999,70,560,5.25,Commuter (446 - 572km)
+Bombardier CRJ900,2001,88,560,4.91,Commuter (446 - 572km)
+Bombardier Dash 8 Q400,1998,78,560,3.46,Commuter (446 - 572km)
+Dornier 228,1981,19,560,6.22,Commuter (446 - 572km)
+Dornier 328,1991,32,560,4.76,Commuter (446 - 572km)
+Embraer Brasilia,1983,30,560,3.82,Commuter (446 - 572km)
+Embraer ERJ-135ER ,1998,37,572,5.52,Commuter (446 - 572km)
+Embraer ERJ-145ER ,1995,50,565,4.37,Commuter (446 - 572km)
+Saab 340,1983,32,560,4.29,Commuter (446 - 572km)
+Saab 2000,1992,50,560,4.39,Commuter (446 - 572km)
+Xian MA700,2019,78,560,2.71,Commuter (446 - 572km)
+Airbus A319neo,2015,144,1100,2.92,"Regional (930 - 1,267km)"
+Airbus A319neo,2015,124,1220,2.82,"Regional (930 - 1,267km)"
+Airbus A320neo,2015,154,1220,2.25,"Regional (930 - 1,267km)"
+Airbus A321neo,2015,192,1220,2.19,"Regional (930 - 1,267km)"
+Antonov An-148,2004,89,1267,4.06,"Regional (930 - 1,267km)"
+Antonov An-158,2010,99,1267,3.79,"Regional (930 - 1,267km)"
+Boeing 737-300,1984,126,939,3.46,"Regional (930 - 1,267km)"
+Boeing 737-600,1998,110,930,3.59,"Regional (930 - 1,267km)"
+Boeing 737-700,1997,126,930,3.19,"Regional (930 - 1,267km)"
+Boeing 737 MAX 7,2017,128,1220,2.77,"Regional (930 - 1,267km)"
+Boeing 737 MAX 7,2017,144,1100,2.93,"Regional (930 - 1,267km)"
+Boeing 737-800,1997,162,930,2.77,"Regional (930 - 1,267km)"
+Boeing 737 MAX 8,2017,166,1220,2.28,"Regional (930 - 1,267km)"
+Boeing 737-900ER,2006,180,930,2.66,"Regional (930 - 1,267km)"
+Boeing 737 MAX 9,2017,180,1220,2.28,"Regional (930 - 1,267km)"
+Boeing 757-200,1982,200,930,2.91,"Regional (930 - 1,267km)"
+Boeing 757-300,1998,243,930,2.66,"Regional (930 - 1,267km)"
+Bombardier CRJ100,1991,50,1069,4.68,"Regional (930 - 1,267km)"
+Bombardier CRJ200,1995,50,1070,4.49,"Regional (930 - 1,267km)"
+Bombardier CRJ700,1999,70,1063,4.36,"Regional (930 - 1,267km)"
+Bombardier CRJ900,2001,88,1061,3.94,"Regional (930 - 1,267km)"
+Bombardier CRJ1000,2009,100,930,3.33,"Regional (930 - 1,267km)"
+Airbus A220 100,2013,115,1100,3.07,"Regional (930 - 1,267km)"
+Airbus A220 300,2015,140,1100,2.75,"Regional (930 - 1,267km)"
+Airbus A220-100,2013,125,930,2.57,"Regional (930 - 1,267km)"
+Airbus A220-300,2015,160,930,2.23,"Regional (930 - 1,267km)"
+Bombardier Dash 8 Q400,1998,82,1100,2.79,"Regional (930 - 1,267km)"
+Dornier 328,1991,31,1100,4.35,"Regional (930 - 1,267km)"
+Embraer E-Jet E2-175,2020,88,1100,3.44,"Regional (930 - 1,267km)"
+Embraer E-Jet E2-190,2018,106,1100,3.32,"Regional (930 - 1,267km)"
+Embraer E-Jet E2-195,2019,132,1100,2.9,"Regional (930 - 1,267km)"
+Embraer E-Jet-170,2002,80,1122,4.08,"Regional (930 - 1,267km)"
+Embraer E-Jet-175,2005,88,1120,3.97,"Regional (930 - 1,267km)"
+Embraer E-Jet-190,2004,114,1124,3.54,"Regional (930 - 1,267km)"
+Embraer E-Jet-195,2004,122,1124,3.28,"Regional (930 - 1,267km)"
+Embraer ERJ-135ER,1998,37,1104,4.86,"Regional (930 - 1,267km)"
+Embraer ERJ-145ER,1996,50,1107,3.86,"Regional (930 - 1,267km)"
+Pilatus PC-12,1991,9,930,5.66,"Regional (930 - 1,267km)"
+Saab 340,1983,31,930,3.83,"Regional (930 - 1,267km)"
+Saab 2000,1992,50,930,3.85,"Regional (930 - 1,267km)"
+Sukhoi SSJ100,2008,98,930,3.59,"Regional (930 - 1,267km)"
+Xian MA700,2019,78,1200,2.5,"Regional (930 - 1,267km)"
+Airbus A319,1995,124,1900,2.95,"Short-Haul (1,900 - 2,204km)"
+Airbus A319neo,2015,136,1900,1.93,"Short-Haul (1,900 - 2,204km)"
+Airbus A320,1987,150,1900,2.61,"Short-Haul (1,900 - 2,204km)"
+Airbus A321-200,1996,180,1900,2.5,"Short-Haul (1,900 - 2,204km)"
+Airbus A330-200,1997,293,1900,2.37,"Short-Haul (1,900 - 2,204km)"
+Antonov An-148 ,2004,89,2204,3.86,"Short-Haul (1,900 - 2,204km)"
+Antonov An-158 ,2010,99,2204,3.57,"Short-Haul (1,900 - 2,204km)"
+Boeing 737-600,1998,110,1900,3.15,"Short-Haul (1,900 - 2,204km)"
+Boeing 737-700,1997,126,1900,2.79,"Short-Haul (1,900 - 2,204km)"
+Boeing 737-700,1997,128,1900,2.71,"Short-Haul (1,900 - 2,204km)"
+Boeing 737 MAX-7,2017,140,1900,1.94,"Short-Haul (1,900 - 2,204km)"
+Boeing 737-800,1997,162,1900,2.44,"Short-Haul (1,900 - 2,204km)"
+Boeing 737-800,1997,160,1900,2.68,"Short-Haul (1,900 - 2,204km)"
+Boeing 737-800W,1997,162,1900,2.45,"Short-Haul (1,900 - 2,204km)"
+Boeing 737 MAX-8,2017,162,1900,2.04,"Short-Haul (1,900 - 2,204km)"
+Boeing 737-900ER,2006,180,1900,2.38,"Short-Haul (1,900 - 2,204km)"
+Boeing 737-900ERW,2006,180,1900,2.37,"Short-Haul (1,900 - 2,204km)"
+Boeing 737 MAX-9,2017,180,1900,2.02,"Short-Haul (1,900 - 2,204km)"
+Boeing 757-200,1982,190,1900,3.02,"Short-Haul (1,900 - 2,204km)"
+Boeing 757-200,1982,200,1900,2.59,"Short-Haul (1,900 - 2,204km)"
+Boeing 757-300,1998,243,1900,2.4,"Short-Haul (1,900 - 2,204km)"
+Airbus A220-100,2013,125,1900,2.28,"Short-Haul (1,900 - 2,204km)"
+Airbus A220-300,2015,160,1900,2.0,"Short-Haul (1,900 - 2,204km)"
+Airbus A220-300,2015,135,1900,1.85,"Short-Haul (1,900 - 2,204km)"
+Quest Kodiak,2004,9,1900,6.28,"Short-Haul (1,900 - 2,204km)"
+Airbus A320,1987,150,3984,2.43,"Medium-Haul (3,240 - 6,300km)"
+Airbus A321LR,2016,154,6300,2.43,"Medium-Haul (3,240 - 6,300km)"
+Airbus A330-200,1997,241,5600,3.11,"Medium-Haul (3,240 - 6,300km)"
+Airbus A330-300,1992,262,5600,2.98,"Medium-Haul (3,240 - 6,300km)"
+Airbus A330-900,2016,310,6200,2.42,"Medium-Haul (3,240 - 6,300km)"
+Airbus A340-300,1992,262,5600,3.25,"Medium-Haul (3,240 - 6,300km)"
+Boeing 737 MAX-8,2017,168,6300,2.13,"Medium-Haul (3,240 - 6,300km)"
+Boeing 737 MAX-9,2017,144,6300,2.53,"Medium-Haul (3,240 - 6,300km)"
+Boeing 747-400,1988,416,3984,3.24,"Medium-Haul (3,240 - 6,300km)"
+Boeing 747-8,2011,467,5600,2.65,"Medium-Haul (3,240 - 6,300km)"
+Boeing 757-200W,1981,158,6300,3.0,"Medium-Haul (3,240 - 6,300km)"
+Boeing 767-200ER,1984,181,5600,3.34,"Medium-Haul (3,240 - 6,300km)"
+Boeing 767-200ER,1984,193,6300,3.25,"Medium-Haul (3,240 - 6,300km)"
+Boeing 767-200ER,1984,224,5600,2.75,"Medium-Haul (3,240 - 6,300km)"
+Boeing 767-300ER,1988,218,3984,3.09,"Medium-Haul (3,240 - 6,300km)"
+Boeing 767-300ER,1988,218,5600,3.09,"Medium-Haul (3,240 - 6,300km)"
+Boeing 767-300ER,1988,269,5600,2.56,"Medium-Haul (3,240 - 6,300km)"
+Boeing 767-400ER,1999,245,5600,2.95,"Medium-Haul (3,240 - 6,300km)"
+Boeing 767-400ER,1999,304,5600,2.44,"Medium-Haul (3,240 - 6,300km)"
+Boeing 767-400ER,1999,304,6047,2.43,"Medium-Haul (3,240 - 6,300km)"
+Boeing 777-200,1994,305,5600,2.8,"Medium-Haul (3,240 - 6,300km)"
+Boeing 777-200ER,1996,301,5600,2.89,"Medium-Haul (3,240 - 6,300km)"
+Boeing 777-300,1997,368,5600,2.68,"Medium-Haul (3,240 - 6,300km)"
+Boeing 787-8,2009,291,6300,2.26,"Medium-Haul (3,240 - 6,300km)"
+Boeing 787-8,2009,238,6300,2.68,"Medium-Haul (3,240 - 6,300km)"
+Boeing 787-9,2013,304,6200,2.37,"Medium-Haul (3,240 - 6,300km)"
+Irkut MC-21-300,2017,163,3240,2.33,"Medium-Haul (3,240 - 6,300km)"
+Airbus A330-200,1997,241,11000,3.32,"Long-Haul (8,610 - 13,300km)"
+Airbus A330-200,1997,248,10277,3.3,"Long-Haul (8,610 - 13,300km)"
+Airbus A330-300,1992,274,10275,3.11,"Long-Haul (8,610 - 13,300km)"
+Airbus A330-800,2017,248,8610,2.75,"Long-Haul (8,610 - 13,300km)"
+Airbus A330-900,2017,300,8610,2.48,"Long-Haul (8,610 - 13,300km)"
+Airbus A340-300,1992,262,11000,3.49,"Long-Haul (8,610 - 13,300km)"
+Airbus A350-900,2013,315,9208,2.39,"Long-Haul (8,610 - 13,300km)"
+Airbus A350-900,2013,318,10249,2.56,"Long-Haul (8,610 - 13,300km)"
+Airbus A350-900,2013,315,12116,2.81,"Long-Haul (8,610 - 13,300km)"
+Airbus A350-1000,2016,327,10243,2.85,"Long-Haul (8,610 - 13,300km)"
+Airbus A350-1000,2016,367,10243,2.58,"Long-Haul (8,610 - 13,300km)"
+Airbus A380,2005,525,13300,3.27,"Long-Haul (8,610 - 13,300km)"
+Airbus A380,2005,544,11000,3.16,"Long-Haul (8,610 - 13,300km)"
+Boeing 747-400,1988,416,11000,3.34,"Long-Haul (8,610 - 13,300km)"
+Boeing 747-400,1988,393,10192,3.76,"Long-Haul (8,610 - 13,300km)"
+Boeing 747-400,1988,487,10147,3.16,"Long-Haul (8,610 - 13,300km)"
+Boeing 747-8,2011,467,11000,2.82,"Long-Haul (8,610 - 13,300km)"
+Boeing 747-8,2011,405,13300,3.35,"Long-Haul (8,610 - 13,300km)"
+Boeing 777-200ER,1996,304,10251,3.11,"Long-Haul (8,610 - 13,300km)"
+Boeing 777-200ER,1996,301,11000,3.08,"Long-Haul (8,610 - 13,300km)"
+Boeing 777-200ER,1996,301,11000,3.09,"Long-Haul (8,610 - 13,300km)"
+Boeing 777-200LR,2005,291,9208,3.25,"Long-Haul (8,610 - 13,300km)"
+Boeing 777-300ER,2003,382,10199,2.9,"Long-Haul (8,610 - 13,300km)"
+Boeing 777-300ER,2003,365,11000,2.91,"Long-Haul (8,610 - 13,300km)"
+Boeing 777-300ER,2003,344,13300,3.11,"Long-Haul (8,610 - 13,300km)"
+Boeing 777-9X,2020,395,13300,2.42,"Long-Haul (8,610 - 13,300km)"
+Boeing 787-8,2011,243,8610,2.77,"Long-Haul (8,610 - 13,300km)"
+Boeing 787-8 GEnx,2011,220,10255,3.01,"Long-Haul (8,610 - 13,300km)"
+Boeing 787-8 Trent,2011,220,10255,3.13,"Long-Haul (8,610 - 13,300km)"
+Boeing 787-9 GEnx,2013,294,8610,2.49,"Long-Haul (8,610 - 13,300km)"
+Boeing 787-9,2013,304,9208,2.31,"Long-Haul (8,610 - 13,300km)"
+Boeing 787-9 GEnx,2013,266,10249,2.64,"Long-Haul (8,610 - 13,300km)"
+Boeing 787-9,2013,291,12116,3.08,"Long-Haul (8,610 - 13,300km)"
+Boeing 787-10 GEnx,2017,337,10240,2.27,"Long-Haul (8,610 - 13,300km)"
+Boeing 787-10 Trent,2017,337,10240,2.31,"Long-Haul (8,610 - 13,300km)"
