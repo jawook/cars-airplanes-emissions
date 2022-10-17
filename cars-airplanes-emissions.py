@@ -5,6 +5,7 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+from PIL import Image
 
 clrs = px.colors.qualitative.D3
 mbOff = {'displayModeBar': False}
@@ -107,17 +108,6 @@ chr1.update_layout(paper_bgcolor='rgba(0,0,0,0)',
                      height=300)
 
 st.plotly_chart(chr1, use_container_width=True)
-with st.expander('See data sources'):
-    st.markdown('* *All airline fuel economy metrics from various sources via ' + 
-                '[wikipedia](https://en.m.wikipedia.org/wiki/Fuel_economy_in_aircraft)' +
-                ', assumes that fuel use per flight is constant regardless of '+
-                'passenger load;*')
-    st.markdown('* *All car fuel economy metrics from the Government ' + 
-                'of Canada 2022 [fuel economy database](https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64)' +
-                ', assumes that fuel use per trip is constant regardless of number ' +
-                'of passengers, based on highway mileage ratings*')
-    st.markdown('* *When there are multiple configurations of a automobile or ' + 
-                'airplane model, the average fuel economy is used*')
     
 st.markdown('#### Compare a flight with a road trip')
 
@@ -146,54 +136,165 @@ with colB2:
 distance = dfSrcPlnMod[dfSrcPlnMod.index==inPlnModelPick]['Sector'].mean()
 effPln = dfSrcPlnMod[dfSrcPlnMod.index==inPlnModelPick]['Eff'].mean()
 effCar = dfSrcCarMod[dfSrcCarMod.index==inCarModelPick]['Eff'].mean()
+plnPic = Image.open('airplane.png')
+carPic = Image.open('car.png')
 
 # charts comparing distances travelled
-chr2 = make_subplots(rows=1, cols=2)
-chr2.add_trace(go.Bar(x=[distance],
-                      marker=dict(color=clrs[1]),
-                      hovertemplate='%{x:,.0f}km',
-                      texttemplate='%{x:,.0f}km',
-                      cliponaxis=False,
-                      textposition='outside',
-                      name=inCarModelPick), row=1, col=1,)
-chr2.add_trace(go.Bar(x=[distance],
+chr2 = go.Figure()
+chr2.add_trace(go.Bar(x=[distance + 0.0001],
+                      y=['Plane'], orientation='h',
                       marker=dict(color=clrs[0]),
-                      hovertemplate='%{x:,.0f}km',
-                      texttemplate='%{x:,.0f}km',
+                      hovertemplate='%{x:,.0f} km',
+                      texttemplate='%{x:,.0f} km',
                       cliponaxis=False,
                       textposition='outside',
-                      name=inPlnModelPick), row=1, col=2)
+                      name=inCarModelPick))
+chr2.add_trace(go.Bar(x=[distance],
+                      y=['Car'], orientation='h',
+                      marker=dict(color=clrs[1]),
+                      hovertemplate='%{x:,.0f} km',
+                      texttemplate='%{x:,.0f} km',
+                      cliponaxis=False,
+                      textposition='outside',
+                      name=inPlnModelPick))
+chr2.add_layout_image(dict(source=plnPic, 
+                           xref='paper', yref='y', sizing='contain',
+                           y='Plane', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           xanchor='center', yanchor='middle'))
+chr2.add_layout_image(dict(source=carPic, 
+                           xref='paper', yref='y', sizing='contain',
+                           y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           xanchor='center', yanchor='middle'))
 chr2.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                    plot_bgcolor='rgba(0,0,0,0)',
-                   margin=dict(l=0, r=40, t=0, b=0),
+                   margin=dict(l=40, r=40, t=0, b=0),
                    height=50, showlegend=False)
 chr2.update_xaxes(visible=False)
 chr2.update_yaxes(visible=False)
 
 # charts comparing fuel burned
-chr3 = make_subplots(rows=2, cols=1, shared_xaxes=True)
-chr3.add_trace(go.Bar(x=[(distance/100)*effCar],
-                      marker=dict(color=clrs[1]),
-                      hovertemplate='%{x:,.0f}L',
-                      texttemplate='%{x:,.0f}L',
-                      cliponaxis=False,
-                      textposition='outside',
-                      name=inCarModelPick), row=1, col=1,)
+chr3 = go.Figure()
 chr3.add_trace(go.Bar(x=[(distance/100)*effPln],
+                      y=['Plane'], orientation='h',
                       marker=dict(color=clrs[0]),
-                      hovertemplate='%{x:,.0f}L',
-                      texttemplate='%{x:,.0f}L',
+                      hovertemplate='%{x:,.0f} L',
+                      texttemplate='%{x:,.0f} L',
                       cliponaxis=False,
                       textposition='outside',
-                      name=inPlnModelPick), row=2, col=1)
+                      name=inPlnModelPick))
+chr3.add_trace(go.Bar(x=[(distance/100)*effCar],
+                      y=['Car'], orientation='h',
+                      marker=dict(color=clrs[1]),
+                      hovertemplate='%{x:,.0f} L',
+                      texttemplate='%{x:,.0f} L',
+                      cliponaxis=False,
+                      textposition='outside',
+                      name=inCarModelPick))
 chr3.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                    plot_bgcolor='rgba(0,0,0,0)',
-                   margin=dict(l=0, r=40, t=0, b=0),
+                   margin=dict(l=40, r=40, t=0, b=0),
                    height=50, showlegend=False)
+chr3.add_layout_image(dict(source=plnPic, 
+                           xref='paper', yref='y', sizing='contain',
+                           y='Plane', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           xanchor='center', yanchor='middle'))
+chr3.add_layout_image(dict(source=carPic, 
+                           xref='paper', yref='y', sizing='contain',
+                           y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           xanchor='center', yanchor='middle'))
 chr3.update_xaxes(visible=False)
 chr3.update_yaxes(visible=False)
     
+# charts comparing GHG emissions
+chr4 = go.Figure()
+chr4.add_trace(go.Bar(x=[(distance/100)*effPln*2.5],
+                      y=['Plane'], orientation='h',
+                      marker=dict(color=clrs[0]),
+                      hovertemplate='%{x:,.0f} kg',
+                      texttemplate='%{x:,.0f} kg',
+                      cliponaxis=False,
+                      textposition='outside',
+                      name=inPlnModelPick))
+chr4.add_trace(go.Bar(x=[(distance/100)*effCar*2.3],
+                      y=['Car'], orientation='h',
+                      marker=dict(color=clrs[1]),
+                      hovertemplate='%{x:,.0f} kg',
+                      texttemplate='%{x:,.0f} kg',
+                      cliponaxis=False,
+                      textposition='outside',
+                      name=inCarModelPick))
+chr4.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
+                   plot_bgcolor='rgba(0,0,0,0)',
+                   margin=dict(l=40, r=40, t=0, b=0),
+                   height=50, showlegend=False)
+chr4.add_layout_image(dict(source=plnPic, 
+                           xref='paper', yref='y', sizing='contain',
+                           y='Plane', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           xanchor='center', yanchor='middle'))
+chr4.add_layout_image(dict(source=carPic, 
+                           xref='paper', yref='y', sizing='contain',
+                           y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           xanchor='center', yanchor='middle'))
+chr4.update_xaxes(visible=False)
+chr4.update_yaxes(visible=False)
+
+# charts comparing time spent
+chr5 = go.Figure()
+chr5.add_trace(go.Bar(x=[(distance/850)+2+1],
+                      y=['Plane'], orientation='h',
+                      marker=dict(color=clrs[0]),
+                      hovertemplate='%{x:,.0f} hrs',
+                      texttemplate='%{x:,.0f} hrs',
+                      cliponaxis=False,
+                      textposition='outside',
+                      name=inPlnModelPick))
+chr5.add_trace(go.Bar(x=[(distance/90)],
+                      y=['Car'], orientation='h',
+                      marker=dict(color=clrs[1]),
+                      hovertemplate='%{x:,.0f} hrs',
+                      texttemplate='%{x:,.0f} hrs',
+                      cliponaxis=False,
+                      textposition='outside',
+                      name=inCarModelPick))
+chr5.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
+                   plot_bgcolor='rgba(0,0,0,0)',
+                   margin=dict(l=40, r=40, t=0, b=0),
+                   height=50, showlegend=False)
+chr5.add_layout_image(dict(source=plnPic, 
+                           xref='paper', yref='y', sizing='contain',
+                           y='Plane', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           xanchor='center', yanchor='middle'))
+chr5.add_layout_image(dict(source=carPic, 
+                           xref='paper', yref='y', sizing='contain',
+                           y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           xanchor='center', yanchor='middle'))
+chr5.update_xaxes(visible=False)
+chr5.update_yaxes(visible=False)
+
 st.markdown('##### Distance travelled *(based on selected plane distance)*')
 st.plotly_chart(chr2, use_container_width=True, config=mbOff)
 st.markdown('##### Fuel consumed per passenger')
 st.plotly_chart(chr3, use_container_width=True, config=mbOff)
+st.markdown('##### CO<sub>2</sub> per passenger', unsafe_allow_html=True)
+st.plotly_chart(chr4, use_container_width=True, config=mbOff)
+st.markdown('##### Hours of travel time')
+st.plotly_chart(chr5, use_container_width=True, config=mbOff)
+with st.expander('See data sources'):
+    st.markdown('* *All airline fuel economy metrics from various sources via ' + 
+                '[wikipedia](https://en.m.wikipedia.org/wiki/Fuel_economy_in_aircraft)' +
+                ', assumes that fuel use per flight is constant regardless of '+
+                'passenger load;*')
+    st.markdown('* *All car fuel economy metrics from the Government ' + 
+                'of Canada 2022 [fuel economy database](https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64)' +
+                ', assumes that fuel use per trip is constant regardless of number ' +
+                'of passengers, based on highway mileage ratings*')
+    st.markdown('* *When there are multiple configurations of a automobile or ' + 
+                'airplane model, the average fuel economy is used*')
+    st.markdown('* *CO<sub>2</sub> emissions per liter of fuel based on ' +
+                'estimates from [ghgprotocol.org](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjJxJbm7ef6AhX1GDQIHZcND3wQFnoECDsQAQ&url=https%3A%2F%2Fghgprotocol.org%2Fsites%2Fdefault%2Ffiles%2FEmission_Factors_from_Cross_Sector_Tools_March_2017.xlsx&usg=AOvVaw1MOb4QhLTjmQSLtpFXIxFO)*',
+                unsafe_allow_html=True)
+    st.markdown('* *Air travel time assumes a cruise speed of 850km/h with 120 ' +
+                'minutes for check-in, taxi & takeoff and 60 minutes for ' + 
+                'landing, taxi and de-planing*')
+    st.markdown('* *Automobile travel time assumes an average travel speed of ' + 
+                '90km/h (including refuelling time, but assuming continuous travel)*')
