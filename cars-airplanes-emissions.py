@@ -169,8 +169,8 @@ chr2.update_layout(paper_bgcolor='rgba(0,0,0,0)',
                    plot_bgcolor='rgba(0,0,0,0)',
                    margin=dict(l=40, r=40, t=0, b=0),
                    height=50, showlegend=False)
-chr2.update_xaxes(visible=False)
-chr2.update_yaxes(visible=False)
+chr2.update_xaxes(visible=False, fixedrange=True)
+chr2.update_yaxes(visible=False, fixedrange=True)
 
 # charts comparing fuel burned
 chr3 = go.Figure()
@@ -202,8 +202,8 @@ chr3.add_layout_image(dict(source=carPic,
                            xref='paper', yref='y', sizing='contain',
                            y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
-chr3.update_xaxes(visible=False)
-chr3.update_yaxes(visible=False)
+chr3.update_xaxes(visible=False, fixedrange=True)
+chr3.update_yaxes(visible=False, fixedrange=True)
     
 # charts comparing GHG emissions
 chr4 = go.Figure()
@@ -235,8 +235,8 @@ chr4.add_layout_image(dict(source=carPic,
                            xref='paper', yref='y', sizing='contain',
                            y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
-chr4.update_xaxes(visible=False)
-chr4.update_yaxes(visible=False)
+chr4.update_xaxes(visible=False, fixedrange=True)
+chr4.update_yaxes(visible=False, fixedrange=True)
 
 # charts comparing time spent
 chr5 = go.Figure()
@@ -268,8 +268,8 @@ chr5.add_layout_image(dict(source=carPic,
                            xref='paper', yref='y', sizing='contain',
                            y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
-chr5.update_xaxes(visible=False)
-chr5.update_yaxes(visible=False)
+chr5.update_xaxes(visible=False, fixedrange=True)
+chr5.update_yaxes(visible=False, fixedrange=True)
 
 st.markdown('##### Distance travelled *(based on selected plane distance)*')
 st.plotly_chart(chr2, use_container_width=True, config=mbOff)
