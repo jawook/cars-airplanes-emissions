@@ -22,7 +22,7 @@ loaddata()
 #%% configuration settings
 st.set_page_config(page_title='Emissions: Planes vs. Automobiles', page_icon='favicon.png')
 
-st.markdown('# Planes, (no trains), and automobiles: which is worse for emissions?')
+st.markdown('# Planes and automobiles: which is worse for emissions?')
 st.markdown('#### Configuration Settings')
 
 colA1, colABlnk, colA2 = st.columns((10, 2, 10))
