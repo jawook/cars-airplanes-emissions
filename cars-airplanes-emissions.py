@@ -4,7 +4,6 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
-from plotly.subplots import make_subplots
 from PIL import Image
 
 clrs = px.colors.qualitative.D3
@@ -107,8 +106,8 @@ chr1.update_layout(paper_bgcolor='rgba(0,0,0,0)',
                                  yanchor='top', y=.99),
                      height=300)
 
-st.plotly_chart(chr1, use_container_width=True)
-    
+st.plotly_chart(chr1, use_container_width=True, config=mbOff)
+
 st.markdown('#### Compare a flight with a road trip')
 
 colB1, colB2 = st.columns(2)
