@@ -167,7 +167,7 @@ chr2.add_layout_image(dict(source=carPic,
                            xanchor='center', yanchor='middle'))
 chr2.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                    plot_bgcolor='rgba(0,0,0,0)',
-                   margin=dict(l=40, r=40, t=0, b=0),
+                   margin=dict(l=50, r=40, t=0, b=0),
                    height=50, showlegend=False)
 chr2.update_xaxes(visible=False, fixedrange=True)
 chr2.update_yaxes(visible=False, fixedrange=True)
@@ -192,7 +192,7 @@ chr3.add_trace(go.Bar(x=[(distance/100)*effCar],
                       name=inCarModelPick))
 chr3.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                    plot_bgcolor='rgba(0,0,0,0)',
-                   margin=dict(l=40, r=40, t=0, b=0),
+                   margin=dict(l=50, r=40, t=0, b=0),
                    height=50, showlegend=False)
 chr3.add_layout_image(dict(source=plnPic, 
                            xref='paper', yref='y', sizing='contain',
@@ -225,7 +225,7 @@ chr4.add_trace(go.Bar(x=[(distance/100)*effCar*2.3],
                       name=inCarModelPick))
 chr4.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                    plot_bgcolor='rgba(0,0,0,0)',
-                   margin=dict(l=40, r=40, t=0, b=0),
+                   margin=dict(l=50, r=40, t=0, b=0),
                    height=50, showlegend=False)
 chr4.add_layout_image(dict(source=plnPic, 
                            xref='paper', yref='y', sizing='contain',
@@ -258,7 +258,7 @@ chr5.add_trace(go.Bar(x=[(distance/90)],
                       name=inCarModelPick))
 chr5.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                    plot_bgcolor='rgba(0,0,0,0)',
-                   margin=dict(l=40, r=40, t=0, b=0),
+                   margin=dict(l=50, r=40, t=0, b=0),
                    height=50, showlegend=False)
 chr5.add_layout_image(dict(source=plnPic, 
                            xref='paper', yref='y', sizing='contain',
