@@ -298,3 +298,5 @@ with st.expander('See data sources'):
                 'landing, taxi and de-planing*')
     st.markdown('* *Automobile travel time assumes an average travel speed of ' + 
                 '90km/h (including refuelling time, but assuming continuous travel)*')
+    st.markdown('* *Code for data gathering and dashboard construction is ' + 
+                'available at: https://github.com/jawook/cars-airplanes-emissions*')
