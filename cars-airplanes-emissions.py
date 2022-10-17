@@ -159,15 +159,15 @@ chr2.add_trace(go.Bar(x=[distance],
                       name=inPlnModelPick))
 chr2.add_layout_image(dict(source=plnPic, 
                            xref='paper', yref='y', sizing='contain',
-                           y='Plane', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           y='Plane', x=-0.04, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
 chr2.add_layout_image(dict(source=carPic, 
                            xref='paper', yref='y', sizing='contain',
-                           y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           y='Car', x=-0.04, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
 chr2.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                    plot_bgcolor='rgba(0,0,0,0)',
-                   margin=dict(l=50, r=40, t=0, b=0),
+                   margin=dict(l=40, r=40, t=0, b=0),
                    height=50, showlegend=False)
 chr2.update_xaxes(visible=False, fixedrange=True)
 chr2.update_yaxes(visible=False, fixedrange=True)
@@ -192,15 +192,15 @@ chr3.add_trace(go.Bar(x=[(distance/100)*effCar],
                       name=inCarModelPick))
 chr3.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                    plot_bgcolor='rgba(0,0,0,0)',
-                   margin=dict(l=50, r=40, t=0, b=0),
+                   margin=dict(l=40, r=40, t=0, b=0),
                    height=50, showlegend=False)
 chr3.add_layout_image(dict(source=plnPic, 
                            xref='paper', yref='y', sizing='contain',
-                           y='Plane', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           y='Plane', x=-0.04, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
 chr3.add_layout_image(dict(source=carPic, 
                            xref='paper', yref='y', sizing='contain',
-                           y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           y='Car', x=-0.04, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
 chr3.update_xaxes(visible=False, fixedrange=True)
 chr3.update_yaxes(visible=False, fixedrange=True)
@@ -225,15 +225,15 @@ chr4.add_trace(go.Bar(x=[(distance/100)*effCar*2.3],
                       name=inCarModelPick))
 chr4.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                    plot_bgcolor='rgba(0,0,0,0)',
-                   margin=dict(l=50, r=40, t=0, b=0),
+                   margin=dict(l=40, r=40, t=0, b=0),
                    height=50, showlegend=False)
 chr4.add_layout_image(dict(source=plnPic, 
                            xref='paper', yref='y', sizing='contain',
-                           y='Plane', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           y='Plane', x=-0.04, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
 chr4.add_layout_image(dict(source=carPic, 
                            xref='paper', yref='y', sizing='contain',
-                           y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           y='Car', x=-0.04, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
 chr4.update_xaxes(visible=False, fixedrange=True)
 chr4.update_yaxes(visible=False, fixedrange=True)
@@ -258,15 +258,15 @@ chr5.add_trace(go.Bar(x=[(distance/90)],
                       name=inCarModelPick))
 chr5.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                    plot_bgcolor='rgba(0,0,0,0)',
-                   margin=dict(l=50, r=40, t=0, b=0),
+                   margin=dict(l=40, r=40, t=0, b=0),
                    height=50, showlegend=False)
 chr5.add_layout_image(dict(source=plnPic, 
                            xref='paper', yref='y', sizing='contain',
-                           y='Plane', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           y='Plane', x=-0.04, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
 chr5.add_layout_image(dict(source=carPic, 
                            xref='paper', yref='y', sizing='contain',
-                           y='Car', x=-0.03, sizex=1.5, sizey=1.5, layer='below',
+                           y='Car', x=-0.04, sizex=1.5, sizey=1.5, layer='below',
                            xanchor='center', yanchor='middle'))
 chr5.update_xaxes(visible=False, fixedrange=True)
 chr5.update_yaxes(visible=False, fixedrange=True)
