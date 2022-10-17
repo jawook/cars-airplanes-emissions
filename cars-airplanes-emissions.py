@@ -96,8 +96,9 @@ chr1.add_trace(go.Bar(x=ch1PlnDf.index, y=ch1PlnDf['Eff'],
 chr1.add_trace(go.Bar(x=ch1CarDf.index, y=ch1CarDf['Eff'], 
                         name='Automobiles', marker=dict(line=dict(width=0),
                                                         color=clrs[1])))
-chr1.update_xaxes(showticklabels=False, categoryorder='total descending')
-chr1.update_yaxes(ticksuffix='  ', tickformat='.1f')
+chr1.update_xaxes(showticklabels=False, categoryorder='total descending',
+                  fixedrange=True)
+chr1.update_yaxes(ticksuffix='  ', tickformat='.1f', fixedrange=True)
 chr1.update_layout(paper_bgcolor='rgba(0,0,0,0)', 
                      plot_bgcolor='rgba(0,0,0,0)',
                      bargap=0, bargroupgap=0, barmode='stack',
