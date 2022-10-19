@@ -127,7 +127,7 @@ st.markdown('#### Compare a flight with a road trip')
 colB1, colB2 = st.columns(2)
 
 with colB1:
-    st.image('car.png')
+    st.image('car.png', width = 200)
     st.markdown('##### Car selection')
     inCarSCatPick = st.selectbox(label='Select the category of automobile',
                                  options=dfSrcCarMod['SCat'].unique(),
