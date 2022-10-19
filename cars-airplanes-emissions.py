@@ -136,7 +136,7 @@ with colB1:
                                   options = dfSrcCarMod[dfSrcCarMod['SCat']==inCarSCatPick].index.unique(),
                                   index=0)
 with colB2:
-    st.image('airplane.png')
+    st.image('airplane.png', width = 200)
     st.markdown('##### Airplane selection')
     inPlnSCatPick = st.selectbox(label='Select the type of flight',
                                  options=dfSrcPlnMod['SCat'].unique(),
